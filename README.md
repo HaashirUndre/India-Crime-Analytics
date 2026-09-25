@@ -3,11 +3,11 @@
 
 A data analysis project built in **R**, examining reported crime data across 29 major Indian cities. The project covers data cleaning, exploratory analysis, geographic visualization, and statistical modelling (correlation & regression).
 
-> ⚠️ **Note on scope:** This analysis is based on reported crime records only. Crime data is subject to reporting and sampling biases across regions, and results should be interpreted as patterns in *reported* incidents — not as claims about actual crime rates, specific communities, or predictive policing.
+>  **Note on scope:** This analysis is based on reported crime records only. Crime data is subject to reporting and sampling biases across regions, and results should be interpreted as patterns in *reported* incidents — not as claims about actual crime rates, specific communities, or predictive policing.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Source: [Crime Dataset India](https://www.kaggle.com/datasets) (Kaggle)
 - **40,160 records** across **29 major Indian cities**
@@ -15,7 +15,7 @@ A data analysis project built in **R**, examining reported crime data across 29 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **R** / RStudio
 - `tidyverse` — data wrangling & visualization
@@ -26,7 +26,7 @@ A data analysis project built in **R**, examining reported crime data across 29 
 
 ---
 
-## 🔍 Methodology
+## Methodology
 
 1. **Data Cleaning** — standardized column names, parsed mixed-format datetime strings (`MM-DD-YYYY HH:MM`), removed inconsistencies
 2. **Exploratory Analysis** — crime type & domain distributions, city-wise breakdowns
@@ -35,7 +35,7 @@ A data analysis project built in **R**, examining reported crime data across 29 
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ### 1. Crime Domain Distribution
 ![Crime Domain Distribution](crime_domain_distribution.png)
@@ -64,7 +64,7 @@ A statistically significant **negative correlation** (r = -0.44, p = 0.046) was 
 
 ---
 
-## 📌 Key Findings
+## Key Findings
 
 - No single crime category dominates reported incidents — the spread across top crime types is relatively flat
 - Maharashtra records the highest crime volume among sampled states, driven by multiple high-population cities
@@ -72,7 +72,7 @@ A statistically significant **negative correlation** (r = -0.44, p = 0.046) was 
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 1. Clone this repo
 2. Place `crime_dataset_india.csv` in the project directory
@@ -85,7 +85,7 @@ A statistically significant **negative correlation** (r = -0.44, p = 0.046) was 
 
 ---
 
-## ✍️ Author
+## Author
 
 - Haashir Undre - Diploma in AI/ML, Abdul Razzaq Kalsekar Polytechnic (MSBTE)
 - Rahil Azad - Diploma in AI/ML, Abdul Razzaq Kalsekar Polytechnic (MSBTE)
