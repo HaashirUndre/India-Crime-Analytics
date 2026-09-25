@@ -87,5 +87,5 @@ A statistically significant **negative correlation** (r = -0.44, p = 0.046) was 
 
 ## ✍️ Author
 
-Haashir Undre - Diploma in AI/ML, Abdul Razzaq Kalsekar Polytechnic (MSBTE)
+- Haashir Undre - Diploma in AI/ML, Abdul Razzaq Kalsekar Polytechnic (MSBTE)
 - Rahil Azad - Diploma in AI/ML, Abdul Razzaq Kalsekar Polytechnic (MSBTE)
