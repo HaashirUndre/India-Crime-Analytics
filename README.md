@@ -38,27 +38,27 @@ A data analysis project built in **R**, examining reported crime data across 29 
 ## 📈 Visualizations
 
 ### 1. Crime Domain Distribution
-![Crime Domain Distribution](graphs/crime%20domain%20distribution.png)
+![Crime Domain Distribution](crime_domain_distribution.png)
 
 "Other Crime" accounts for 57.1% of all reported incidents, followed by Violent Crime (28.6%), Fire Accident (9.5%), and Traffic Fatality (4.8%).
 
 ### 2. Top 15 Crime Types
-![Top 15 Crime Types](graphs/top%20crimes.png)
+![Top 15 Crime Types](top_crimes.png)
 
 The top 15 crime types are fairly evenly distributed (1,895–1,980 incidents each), showing no single dominant crime category.
 
 ### 3. Total Reported Crimes by City
-![Crimes Reported by City](graphs/crimes%20reported%20by%20city.png)
+![Crimes Reported by City](crimes_reported_by_city.png)
 
 Delhi and Mumbai report the highest incident volumes, with a gradual step-down across the remaining cities.
 
 ### 4. Reported Crimes by State (Choropleth Map)
-![Crimes Reported by State](graphs/crimes%20reported%20by%20state.png)
+![Crimes Reported by State](crimes_reported_by_state.png)
 
 Maharashtra leads by a wide margin — a result of multiple sampled cities (Mumbai, Pune, Nagpur, Thane, Nashik, Vasai, Kalyan) falling within the state. Grey regions indicate states with no sampled cities in this dataset.
 
 ### 5. Crime Volume vs Case Closure Rate
-![Crime Volume vs Case Closure Rate](graphs/crime%20volume%20vs%20case%20closure%20rate.png)
+![Crime Volume vs Case Closure Rate](crime_volume_vs_case_closure_rate.png)
 
 A statistically significant **negative correlation** (r = -0.44, p = 0.046) was found between how frequently a crime type occurs and its closure rate — higher-volume crime types tend to have slightly lower closure rates. However, the regression model's R² = 0.193 means incident volume alone explains only ~19% of the variance in closure rate, indicating other factors (police deployment, crime severity, etc.) play a larger role.
 
